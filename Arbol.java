@@ -5,7 +5,7 @@ pero ordenados de mayor a menor. Los números almacenados son definidos por
 los estudiantes. */
 public class Arbol {
     public static void main(String[] args) {
-        ArbolBinarioNumeros arbol = new ArbolBinarioNumeros();
+        ArbolBinarioNumeros arbol = new ArbolBinarioNumeros();//instancia arbol llamada arbol
         arbol.insertar(100);
         arbol.insertar(96);
         arbol.insertar(84);
